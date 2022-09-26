@@ -42,3 +42,16 @@ main{
     width: 268px;
 }
 
+#redes{
+    position: absolute;
+    left: 94%;
+    border: 1px solid red;
+}
+
+.logos{
+    margin-bottom: 20px;
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 160px;
+}
