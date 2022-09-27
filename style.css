@@ -4,6 +4,7 @@
     padding: 0px;
     margin: 0px;
     border: 0;
+    list-style: none;
 }
 
 body{
@@ -43,16 +44,21 @@ main{
 }
 
 #redes{
-    position: absolute;
-    left: 94%;
-    top: 3%;
-    border: 1px solid red;
+    text-align: right;
 }
 
 .logos{
-    margin-bottom: 20px;
-    display: block;
-    width: 70px;
-    height: 70px;
-    border-radius: 160px;
+    margin-bottom: 25px;
+    margin: 10px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    box-sizing: border-box;
+}
+
+.logos:hover{
+    border: 2px solid rgba(255, 255, 255, 0.596);
+    transform: translate(-3px, -3px);
+    transition: transform 0.3s, border 0.3s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.596);
 }
