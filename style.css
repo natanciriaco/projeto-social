@@ -30,9 +30,11 @@ main{
     transform: translate(-50%,-50%);
    
 
+    min-height: 620px;
     height: 627px;
     width: 311px;
     background-image: url(imagens/frame-iphone.png);
+    background-repeat: no-repeat;
 }
 
 #tela{
@@ -44,6 +46,7 @@ main{
 }
 
 #redes{
+    min-width: 526px;
     text-align: right;
 }
 
